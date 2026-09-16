@@ -1,0 +1,70 @@
+/* paragraph text is blue */
+p {
+  color: #F54927;
+  text-align: center;
+  text-align-last: left;
+  direction: rtl;
+  unicode-bidi: bidi-override;
+  font-size: 15px;
+  font-family: "kablammo";
+  /* background-color: purple */;
+}
+
+header {
+  color: #27E0F5;
+  font-size: 26px;
+  background-color: black;
+  border: 12px dashed orange;
+}
+
+dov.box2 {
+  color: white;
+  background-image: url("media/NEwTech.jpg");
+  width: 300px;
+  padding: 250px;
+  margin: 500px;
+  position: fixed;
+  
+}
+
+.kablammo-<uniquifier> {
+  font-family: "Kablammo", system-ui;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings: "MORF" 0;
+}
+
+body {
+  background-color: #D1BAFF;
+  background-image: url("media/NEwTech.jpg");
+  /* background-repeat: round; */
+  background-attachment: scroll;
+}
+
+.box {
+  width: 10px;
+  background-color: red;
+  margin: 200px, 30px, 40px, 500px;
+  padding: 50px, 30px, 50px, 900px;
+  position: relative;
+
+
+h2 {
+  color: purple;
+  font-size: 3.6 em;
+}
+
+p {
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+a:hover {
+  color: alicerblue;
+}
+}
+
+div{
+  color: white;
+  background-image: url("media/NEwTech.jpg");
+}
