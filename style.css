@@ -17,26 +17,6 @@ header {
   border: 12px dashed orange;
 }
 
-dov.box2 {
-  color: white;
-  background-image: url("media/NEwTech.jpg");
-  width: 300px;
-  padding: 250px;
-  margin: 500px;
-  position: sticky;
-  top: 100px;
-  bottom: 8px;
-  border-style: dotted dashed solid double;
-  
-  border-color: #F7C7FF;
-  border-width: 12px;
-  p {
-    font-family: fantasy;
-    color: white;
-    background-color: black;
-  }
-  
-}
 
 .kablammo-<uniquifier> {
   font-family: "Kablammo", system-ui;
@@ -70,11 +50,36 @@ h2 {
 
 p {
   font-family: Helvetica, Arial, sans-serif;
+  color: black;
+  border-right: 200px solid white;
 }
 
 a:hover {
   color: alicerblue;
 }
+}
+
+dov.box2 {
+  color: white;
+  background-image: url("media/NEwTech.jpg");
+  width: 300px;
+  padding: 250px;
+  margin: 500px;
+  position: sticky;
+  top: 100px;
+  bottom: 8px;
+  border-style: dotted dashed solid double;
+  border-radius 10px 30px
+  border-color: #F7C7FF;
+  border-width: 12px 25px;
+  
+  
+  p {
+    font-family: fantasy;
+    color: white;
+    background-color: black;
+  }
+  
 }
 
 div{
