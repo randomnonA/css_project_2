@@ -27,8 +27,8 @@ header {
 }
 
 body {
-  background-color: #D1BAFF;
-  background-image: url("media/NEwTech.jpg");
+  background-color: white;
+  /* background-image: url("media/NEwTech.jpg"); */
   /* background-repeat: round; */
   background-attachment: scroll;
   scroll-behavior: auto;
@@ -41,6 +41,12 @@ body {
   margin: 200px, 30px, 40px, 500px;
   padding: 50px, 30px, 50px, 900px;
   position: sticky;
+  height: 200px;
+  top: 0px;
+  display: flex cross-axis;
+  flex-direction: row;
+  flex-wrap: column wrap;
+  justify-content: space-evenly;
   
 
 
@@ -73,6 +79,7 @@ dov.box2 {
   border-radius 10px 30px
   border-color: #F7C7FF;
   border-width: 12px 25px;
+  z-index: -1;
   
   
   p {
