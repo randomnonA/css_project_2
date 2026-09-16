@@ -23,7 +23,9 @@ dov.box2 {
   width: 300px;
   padding: 250px;
   margin: 500px;
-  position: fixed;
+  position: sticky;
+  top: 100px;
+  bottom: 8px;
   
   p {
     font-family: fantasy;
