@@ -36,11 +36,12 @@ body {
 }
 
 .box {
-  width: 10px;
+  width: 150px;
   background-color: red;
   margin: 200px, 30px, 40px, 500px;
   padding: 50px, 30px, 50px, 900px;
-  position: relative;
+  position: sticky;
+  
 
 
 h2 {
