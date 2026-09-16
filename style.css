@@ -28,6 +28,8 @@ dov.box2 {
   bottom: 8px;
   border-style: dotted dashed solid double;
   
+  border-color: #F7C7FF;
+  border-width: 12px;
   p {
     font-family: fantasy;
     color: white;
