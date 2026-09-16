@@ -89,6 +89,15 @@ dov.box2 {
     font-family: fantasy;
     color: white;
     background-color: black;
+    
+    button {
+    background-color: blue;
+    color: white;
+    transition: background-color 0.3s ease;
+    }
+    button:hover{
+      background-color: red;
+    }
   }
   
 }
