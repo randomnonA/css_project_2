@@ -25,6 +25,12 @@ dov.box2 {
   margin: 500px;
   position: fixed;
   
+  p {
+    font-family: fantasy;
+    color: white;
+    background-color: black;
+  }
+  
 }
 
 .kablammo-<uniquifier> {
@@ -40,6 +46,8 @@ body {
   background-image: url("media/NEwTech.jpg");
   /* background-repeat: round; */
   background-attachment: scroll;
+  scroll-behavior: auto;
+  
 }
 
 .box {
