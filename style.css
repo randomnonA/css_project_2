@@ -83,6 +83,7 @@ dov.box2 {
   border-color: #F7C7FF;
   border-width: 12px 25px;
   z-index: -1;
+  animation: bounce 2s infinite ease-in-out;
   
   
   p {
@@ -98,6 +99,19 @@ dov.box2 {
     button:hover{
       background-color: red;
     }
+  }
+  
+  @keyframes bounce{
+    0% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(-30px);
+    }
+    100% {
+      transform: translateY(0px);
+    }
+
   }
   
 }
